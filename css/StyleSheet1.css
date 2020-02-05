@@ -1,0 +1,135 @@
+header{
+    background-color: black;
+    color: cornsilk;
+    border: blanchedalmond;
+    border-style: solid;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+
+}
+header:hover{
+    transform:rotate(180deg);
+}
+body{
+    background-color:whitesmoke;
+    color: red;
+    animation: mymove 5s infinite;
+  
+  
+}
+  @keyframes mymove {
+    from {background-color: lightblue;}
+    to {background-color:lightgoldenrodyellow;}
+}
+.n1{
+background-color: black;
+overflow:hidden;
+}
+
+.n1 a:hover{
+    background-color: brown;
+}
+
+.n1 a{
+    color: bisque;
+    float:left;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 20px 130px;
+    background-color:black;
+}
+
+
+footer{
+    background-color: black;
+    color: cornsilk;
+    border: blanchedalmond;
+    border-style: solid;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.mySlides{
+    display:none;
+}
+
+.left{
+    display:block;
+    float:left;
+    background-color: blanchedalmond;
+    height: 750px;
+    width:450px;
+}
+.right{
+    display:block;
+    float:right;
+    background-color: blanchedalmond;
+    height: 750px;
+    width:450px;
+}
+section{
+    color:red;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.any{
+    color:black;
+    font-size: 35px;
+}
+
+.t{
+    border: black;
+    border-radius: 25px;
+    border-style: solid;
+    box-shadow: 10px 10px 10px darkgray;
+    height: 630px;
+    width:500px;
+    color: darkslateblue;
+    font-weight: bolder;
+
+}
+
+.course{
+        width: 100px;
+        height: 50px;
+        background:lightcoral;
+        -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+        transition: width 2s;
+        text-align: center;
+        color: mediumblue;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+      }
+      
+      .course:hover {
+        width: 300px;
+      }
+
+      .img1:hover{
+          filter:sepia(30%);
+      }
+
+      .img2:hover{
+          filter:sepia(60%);
+      }
+
+      .img3:hover{
+        filter:blur(2px);
+    }
+
+    .img4:hover{
+        filter:blur(5px);
+    }
+
+    .img5:hover{
+        filter:opacity(50%);
+    }
+
+    .img6:hover{
+        filter:opacity(70%);
+    }

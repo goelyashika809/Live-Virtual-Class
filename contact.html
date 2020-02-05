@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Live Virtual Class
+        </title>
+        <link href="css/StyleSheet1.css" rel="stylesheet">
+        
+        <script src="js/Script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <center><h1>
+                Live Virtual Class
+            </h1></center>
+        </header>
+        <br>
+        <nav class="n1">
+            <a href="index.html">Home</a>
+            <a href="courses.html">All Courses</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="register.html">Registration</a>
+            <a href="contact.html">Contact us</a>
+            <a href="pretest.html">Pre Test</a>
+
+        </nav>
+
+        <nav class="left">
+            <br>
+            <br>
+            <h1>What is Live Virtual Class?</h1>
+            <iframe width="450" height="300" src="https://www.youtube.com/embed/0oXOI40fuF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </nav>
+
+        <nav class="right" style="max-width:500px">
+            <br>
+            <br>
+                <img class="mySlides" src="media/image1.jfif" style="width:100%">
+                <img class="mySlides" src="media/image2.jpg" style="width:100%">
+                <img class="mySlides" src="media/image3.png" style="width:100%">
+                <br>
+                <br>
+                A virtual classroom is an online learning environment that allows for live interaction between the tutor and the learners as they are participating in learning activities.
+            
+        </nav>
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+        
+            <h1 class="any"><center>Enter Contact Details</center></h1>
+         
+                <center><form name="form1" method="POST" onsubmit="return fun1()" align="center">
+                    <br>
+                    <center><table class="t">
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" name="name" placeholder="Enter your name" size=40 height=60%></td>
+                        </tr>
+                        <tr>
+                            <td>Gender:</td>
+                            <td><input type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="Female">Female </td>
+                        </tr>
+                        <tr>
+                            <td>Course:</td>
+                            <td><input type="checkbox" name="A" value="Angular" >Angular <input type="checkbox" name="J" value="Java" >Java <input type="checkbox" name="D" value="DotNet" >DotNet </td>
+                        </tr>
+                        <tr>
+                            <td>Country:</td>
+                            <td><select name="selection">
+                                <option value=""></option>
+                                <option value="India">India</option>
+                                <option value="China">China</option>
+                                <option value="Nepal">Nepal</option>
+    
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>Remarks:</td>
+                            <td><textarea rows=5 cols=50 placeholder="Comments.."></textarea></td>
+                        </tr>
+                        <tr> <td align="center" colspan=2><input type="submit" name="submit"></td></tr>
+    
+                    </table></center> 
+                    
+    
+            </form></center>
+
+            
+        
+        <br>
+        <br>
+        <footer><center>
+            &copy;copyright Yashika Goel<br>
+            Last Updated: 30 January 2020</center>
+        </footer>
+    </body>
+</html>
